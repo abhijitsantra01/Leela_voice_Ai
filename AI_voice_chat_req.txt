@@ -1,0 +1,9 @@
+# Web app + original desktop voice tool. Python 3.12 or 3.13 recommended.
+google-genai>=2.29.0,<3.0
+python-dotenv>=1.1.1,<2.0
+fastapi>=0.115.0,<1.0
+uvicorn[standard]>=0.34.0,<1.0
+# Desktop-only dependencies (gemini_voice_test.py)
+numpy>=2.0,<3.0
+pocketsphinx>=5.1.1,<6.0
+sounddevice>=0.5.6,<1.0
